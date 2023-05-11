@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+    base: '/vite-crud-sqlite/',
     plugins: [
         {
             name: 'configure-response-headers',
